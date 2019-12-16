@@ -7,3 +7,4 @@
 #=================================================
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.8.253/g' package/base-files/files/bin/config_generate
+git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git package/luci-theme-atmaterial
